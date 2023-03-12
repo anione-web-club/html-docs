@@ -1,7 +1,3 @@
-<script>
-    export let title = 'HTML 문서'
-</script>
-
 <h1>HTML 문서</h1>
 
 <main>
