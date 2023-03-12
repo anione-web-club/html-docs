@@ -11,7 +11,7 @@
 		"theme": "npm run theme:light && npm run theme:dark",
 		"theme:light": "smui-theme compile static/smui-light.css -i src/theme",
 		"theme:dark": "smui-theme compile static/smui-dark.css -i src/theme/dark",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -d build -t true",
 		"predeploy": "npm run build"
 	},
 	"devDependencies": {
