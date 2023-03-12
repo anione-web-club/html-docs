@@ -8,13 +8,11 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"theme": "npm run theme:light && npm run theme:dark",
-		"theme:light": "smui-theme compile static/smui-light.css -i src/theme",
-		"theme:dark": "smui-theme compile static/smui-dark.css -i src/theme/dark",
 		"deploy": "gh-pages -d build -t true",
 		"predeploy": "npm run build"
 	},
 	"devDependencies": {
+		"@popperjs/core": "^2.11.6",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",

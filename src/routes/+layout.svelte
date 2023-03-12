@@ -1,5 +1,5 @@
 <script>
-    import { Styles } from 'sveltestrap';
+    import { Styles } from 'sveltestrap/src';
     import { Header } from '$lib/ui';
 
     import { getTitleName } from '$lib/util';

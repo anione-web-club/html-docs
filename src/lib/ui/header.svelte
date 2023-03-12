@@ -9,7 +9,7 @@
         Dropdown, 
         DropdownMenu, 
         DropdownItem 
-    } from 'sveltestrap';
+    } from 'sveltestrap/src';
     import { base } from '$app/paths';
 
     let isOpen = false

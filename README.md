@@ -1,38 +1,12 @@
-# create-svelte
+# HTML DOCS
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+HTML을 설명하기 위한 문서입니다.
 
-## Creating a project
+## 개발시 주의사항
 
-If you're seeing this, you've probably already done this step. Congrats!
+`sveltestrap` 패키지에서 `popperjs` 라는 패키지를 쓰는데,
+이게 vite로 빌드할때 좀 불안정해서 직접 바꿔줘야함.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+레포 들고와서 `npm install` 하고 나서,
+`node_modules/@popperjs/core/package.json`에 드가서,
+맨 끝에 `"type": "module"` 이거 추가해 주면됨.
