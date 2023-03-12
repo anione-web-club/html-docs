@@ -2,17 +2,17 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./html-docs/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/entry/start.33dbb094.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/chunks/index.847936d9.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/chunks/singletons.97efbf1b.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/entry/app.c5701e98.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/entry/layout.svelte.b0368388.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/entry/_layout.ts.984db11e.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./html-docs/_app/immutable/entry/_page.svelte.da808fe5.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.c36138b6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.847936d9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.e1da6e25.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.cb14a63d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.b0368388.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.da808fe5.js">
 
 		<!-- Material Icons -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -21,8 +21,8 @@
 		<!-- Roboto Mono -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
 
-		<link rel="stylesheet" href="/html-docs/smui-light.css" media="(prefers-color-scheme: light)" />
-		<link rel="stylesheet" href="/html-docs/smui-dark.css" media="(prefers-color-scheme: dark)" />
+		<link rel="stylesheet" href="./smui-light.css" media="(prefers-color-scheme: light)" />
+		<link rel="stylesheet" href="./smui-dark.css" media="(prefers-color-scheme: dark)" />
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -35,20 +35,19 @@
 			
 			<script>
 				{
-					__sveltekit_1my8xao = {
+					__sveltekit_7dwm1j = {
 						env: {},
-						assets: "/html-docs",
-						base: new URL("./html-docs", location).pathname,
+						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
 					};
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./html-docs/_app/immutable/entry/start.33dbb094.js"),
-						import("./html-docs/_app/immutable/entry/app.c5701e98.js")
+						import("./_app/immutable/entry/start.c36138b6.js"),
+						import("./_app/immutable/entry/app.cb14a63d.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1my8xao.element, {
+						kit.start(app, __sveltekit_7dwm1j.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
