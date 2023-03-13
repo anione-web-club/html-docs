@@ -3,7 +3,7 @@
     import { ExampleCode } from '$lib/ui';
 </script>
 
-<h1>p</h1>
+<h1>a</h1>
 
 <p>
     HTML <Badge>{'<a>'}</Badge> 태그(앵커 태그)는 <Badge>href</Badge> 속성을 통해 
