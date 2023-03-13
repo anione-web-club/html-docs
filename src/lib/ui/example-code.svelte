@@ -29,7 +29,7 @@
             </FormGroup>
         </Form>
         <CardText>
-            코드: {code}
+            코드: <code>{code}</code>
         </CardText>
         <CardText>
             결과: {@html code}
