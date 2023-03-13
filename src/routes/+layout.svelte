@@ -3,7 +3,8 @@
     import { Header } from '$lib/ui';
 
     import { getTitleName } from '$lib/util';
-    const title = getTitleName('HTML 문서')
+    import { page } from '$app/stores'
+    const title = getTitleName($page.data.title)
 </script>
 
 <svelte:head>
