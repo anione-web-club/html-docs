@@ -16,10 +16,10 @@
 		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/stores.cab79f7e.js">
 		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-page.svelte.542aa401.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-a-page.svelte.18c47a0e.js">
 		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/example-code.4a02f903.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-page.ts.bde10708.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/_page.47504393.js"><title>p 태그 - 웹 동아리 HTML 문서</title><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END --><!-- HEAD_svelte-13cmugy_START --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- HEAD_svelte-13cmugy_END -->
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-a-page.ts.b1664827.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/_page.c524abd7.js"><title>a 태그 - 웹 동아리 HTML 문서</title><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END --><!-- HEAD_svelte-13cmugy_START --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- HEAD_svelte-13cmugy_END -->
 
 		<!-- Material Icons -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -46,21 +46,20 @@
 
 <main><h1>p</h1>
 
-<p>HTML <span class="badge bg-secondary">&lt;p></span> 태그는 하나의 문단을 나타냅니다. 
-    시각적인 매체에서, 문단은 보통 인접 블록과의 여백과 첫 줄의 들여쓰기로 구분하지만, 
-    HTML에서 문단은 이미지나 입력 폼 등 서로 관련있는 콘텐츠 무엇이나 될 수 있습니다.
+<p>HTML <span class="badge bg-secondary">&lt;a></span> 태그(앵커 태그)는 <span class="badge bg-secondary">href</span> 속성을 통해 
+    다른 페이지나 같은 페이지의 어느 위치, 파일, 이메일 주소와 그 외 다른 URL로 연결할 수 있는 하이퍼링크를 만듭니다. 
     <br>
-    문단은 블록 레벨 요소이며, 자신의 닫는 태그(<span class="badge bg-secondary">&lt;/p></span>) 이전에 다른 블록 레벨 태그가 분석되면 자동으로 닫힙니다. 
+    <span class="badge bg-secondary">&lt;a></span> 안의 콘텐츠는 링크의 목적지의 설명을 나타내야 합니다.
 </p>
 
 <div class="card" style=""><div class="card-header"><h5 class="card-title">예제</h5></div>
-    <div class="card-body"><form class=""><div class="mb-3 form-floating"><input class="form-control" type="text" name="" placeholder="예제" value="코코아는 역시 반호텐">
+    <div class="card-body"><form class=""><div class="mb-3 form-floating"><input class="form-control" type="text" name="" placeholder="예제" value="https://www.naver.com">
 
     
       <label>내용 작성
         </label></div></form>
-        <p class="card-text">코드: <code>&lt;p>코코아는 역시 반호텐&lt;/p></code></p>
-        <p class="card-text">결과: <!-- HTML_TAG_START --><p>코코아는 역시 반호텐</p><!-- HTML_TAG_END --></p></div></div></main>
+        <p class="card-text">코드: <code>&lt;a href="https://www.naver.com">링크&lt;/a></code></p>
+        <p class="card-text">결과: <!-- HTML_TAG_START --><a href="https://www.naver.com">링크</a><!-- HTML_TAG_END --></p></div></div></main>
 
 
 			
@@ -80,7 +79,7 @@
 						import("/html-docs/_app/immutable/entry/app.900a3dfa.js")
 					]).then(([kit, app]) => {
 						kit.start(app, __sveltekit_eljfry.element, {
-							node_ids: [0, 5],
+							node_ids: [0, 4],
 							data,
 							form: null,
 							error: null
