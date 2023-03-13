@@ -12,6 +12,9 @@
     } from 'sveltestrap/src';
     import { base } from '$app/paths';
 
+    /** @type {string[]} */
+    export let tagList = []
+
     let isOpen = false
     function toggle() {
         isOpen = !isOpen
@@ -30,7 +33,9 @@
                 <DropdownMenu end>
                     <DropdownItem href='{base}/tag'>태그</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem href='{base}/tag/p'>p</DropdownItem>
+                    {#each tagList as tag}
+                        <DropdownItem href='{base}/tag/{tag}'>{tag}</DropdownItem>
+                    {/each}
                 </DropdownMenu>
             </Dropdown>
         </Nav>

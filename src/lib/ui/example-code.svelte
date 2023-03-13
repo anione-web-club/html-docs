@@ -11,9 +11,10 @@
     } from 'sveltestrap/src';
 
     export let placeholder = ''
-    let input = placeholder
     /**  @param {string} code */
     export let codeProcessor = (code) => code
+
+    let input = placeholder
     $: code = codeProcessor(input)
 </script>
 

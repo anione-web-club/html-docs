@@ -5,15 +5,18 @@
     import { getTitleName } from '$lib/util';
     import { page } from '$app/stores'
     const title = getTitleName($page.data.title)
+    const tagList = ['p']
 </script>
 
 <svelte:head>
     <title>{title}</title>
 </svelte:head>
 
-<Styles></Styles>
+<Styles />
 
-<Header></Header>
+<Header 
+    {tagList}
+/>
 
 <main>
     <slot></slot>
