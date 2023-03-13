@@ -1,7 +1,6 @@
 <script>
     import { Badge } from 'sveltestrap/src';
     import { ExampleCode } from '$lib/ui';
-    const example = '<p>훌륭한 코드는 훌륭한 문서보다 낫다.  (Steve McConnell, 개발자)</p>'
 </script>
 
 <h1>p</h1>
@@ -14,4 +13,7 @@
     문단은 블록 레벨 요소이며, 자신의 닫는 태그(<Badge>{'</p>'}</Badge>) 이전에 다른 블록 레벨 태그가 분석되면 자동으로 닫힙니다. 
 </p>
 
-<ExampleCode></ExampleCode>
+<ExampleCode 
+    placeholder='코코아는 역시 반호텐'
+    codeProcessor={(input) => `<p>${input}</p>`}
+/>

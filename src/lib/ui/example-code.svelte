@@ -10,8 +10,11 @@
         CardText,
     } from 'sveltestrap/src';
 
-    let input = ''
-    $: code = `<p>${input}</p>` 
+    export let placeholder = ''
+    let input = placeholder
+    /**  @param {string} code */
+    export let codeProcessor = (code) => code
+    $: code = codeProcessor(input)
 </script>
 
 <Card>
