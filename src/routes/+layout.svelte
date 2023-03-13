@@ -5,7 +5,7 @@
     import { getTitleName } from '$lib/util';
     import { page } from '$app/stores'
     const title = getTitleName($page.data.title)
-    const tagList = ['p']
+    const tagList = ['a', 'p']
 </script>
 
 <svelte:head>
