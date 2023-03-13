@@ -5,7 +5,7 @@
     import { getTitleName } from '$lib/util';
     import { page } from '$app/stores'
     const title = getTitleName($page.data.title)
-    const tagList = ['a', 'p']
+    const tagList = ['p', 'a', 'h1'].sort()
 </script>
 
 <svelte:head>
