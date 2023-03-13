@@ -15,4 +15,6 @@
 
 <Header></Header>
 
-<slot></slot>
+<main>
+    <slot></slot>
+</main>
