@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/html-docs/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="/html-docs/_app/immutable/assets/_layout.60614438.css" rel="stylesheet">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/start.5d4e070a.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/index.98913c31.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/singletons.a6337dc2.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/paths.6d5bc675.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/app.a3e780c1.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/_layout.svelte.ec50508b.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/title.58d4f241.js">
+		<link href="/html-docs/_app/immutable/assets/Offcanvas.60614438.css" rel="stylesheet">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/start.d8ef1f2c.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/index.9f86270f.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/singletons.94ae6526.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/paths.d5599fba.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/app.a08ca0c2.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/_layout.svelte.ece0fffc.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/Offcanvas.svelte_svelte_type_style_lang.b21b7acf.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/stores.bc6a2cc8.js">
 		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-layout.svelte.e55015e6.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-layout.svelte.899df257.js">
-		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-page.svelte.0a070204.js"><title>p 태그 - 웹 동아리 HTML 문서</title><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END --><!-- HEAD_svelte-13cmugy_START --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- HEAD_svelte-13cmugy_END --><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END --><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END -->
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-page.svelte.0eb8c997.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/entry/tag-p-page.ts.bde10708.js">
+		<link rel="modulepreload" href="/html-docs/_app/immutable/chunks/_page.47504393.js"><title>p 태그 - 웹 동아리 HTML 문서</title><!-- HEAD_svelte-1uo06u1_START --><!-- HEAD_svelte-1uo06u1_END --><!-- HEAD_svelte-13cmugy_START --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- HEAD_svelte-13cmugy_END -->
 
 		<!-- Material Icons -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -42,33 +43,43 @@
 
 </div></nav>
 
+<main><h1>p</h1>
 
+<p>HTML <span class="badge bg-secondary">&lt;p></span> 태그는 하나의 문단을 나타냅니다. 
+    시각적인 매체에서, 문단은 보통 인접 블록과의 여백과 첫 줄의 들여쓰기로 구분하지만, 
+    HTML에서 문단은 이미지나 입력 폼 등 서로 관련있는 콘텐츠 무엇이나 될 수 있습니다.
+    <br>
+    문단은 블록 레벨 요소이며, 자신의 닫는 태그(<span class="badge bg-secondary">&lt;/p></span>) 이전에 다른 블록 레벨 태그가 분석되면 자동으로 닫힙니다. 
+</p>
 
+<div class="card" style=""><div class="card-header"><h5 class="card-title">예제</h5></div>
+    <div class="card-body"><form class=""><div class="mb-3 form-floating"><input class="form-control" type="text" name="" placeholder="예제" value="코코아는 역시 반호텐">
 
-
-<h1>p</h1>
-
-<main><p>p태그는 문서의 글을 쓸때 쓰는 태그 입니다.</p></main>
+    
+      <label>내용 작성
+        </label></div></form>
+        <p class="card-text">코드: &lt;p>코코아는 역시 반호텐&lt;/p></p>
+        <p class="card-text">결과: <!-- HTML_TAG_START --><p>코코아는 역시 반호텐</p><!-- HTML_TAG_END --></p></div></div></main>
 
 
 			
 			<script>
 				{
-					__sveltekit_2gf6f2 = {
+					__sveltekit_gwsryp = {
 						env: {},
 						assets: "/html-docs",
 						base: "/html-docs",
 						element: document.currentScript.parentElement
 					};
 
-					const data = [null,null,null,null];
+					const data = [null,null];
 
 					Promise.all([
-						import("/html-docs/_app/immutable/entry/start.5d4e070a.js"),
-						import("/html-docs/_app/immutable/entry/app.a3e780c1.js")
+						import("/html-docs/_app/immutable/entry/start.d8ef1f2c.js"),
+						import("/html-docs/_app/immutable/entry/app.a08ca0c2.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_2gf6f2.element, {
-							node_ids: [0, 2, 3, 6],
+						kit.start(app, __sveltekit_gwsryp.element, {
+							node_ids: [0, 4],
 							data,
 							form: null,
 							error: null
