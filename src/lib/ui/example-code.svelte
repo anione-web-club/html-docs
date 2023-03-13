@@ -7,7 +7,11 @@
         Form,
         FormGroup,
         Input,
+        CardText,
     } from 'sveltestrap/src';
+
+    let input = ''
+    $: code = `<p>${input}</p>` 
 </script>
 
 <Card>
@@ -16,9 +20,15 @@
     </CardHeader>
     <CardBody>
         <Form>
-            <FormGroup floating label='p 태그'>
-                <Input placeholder='예제' />
+            <FormGroup floating label='내용 작성'>
+                <Input type='text' placeholder='예제' bind:value={input} />
             </FormGroup>
         </Form>
+        <CardText>
+            코드: {code}
+        </CardText>
+        <CardText>
+            결과: {@html code}
+        </CardText>
     </CardBody>
 </Card>
