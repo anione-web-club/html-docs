@@ -27,7 +27,6 @@
     <Collapse {isOpen} navbar>
         <Nav navbar>
             <Dropdown nav inNavbar>
-                <!--
                 <DropdownToggle nav caret>
                     태그
                 </DropdownToggle>
@@ -38,7 +37,6 @@
                         <DropdownItem href='{base}/tag/{tag}'>{tag}</DropdownItem>
                     {/each}
                 </DropdownMenu>
-                -->
             </Dropdown>
         </Nav>
     </Collapse>
