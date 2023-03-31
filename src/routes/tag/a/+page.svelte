@@ -4,6 +4,7 @@
 </script>
 
 <h1>a</h1>
+<hr>
 
 <p>
     HTML <Badge>{'<a>'}</Badge> (anchor) 태그는 <Badge>href</Badge> 속성을 통해 

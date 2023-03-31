@@ -4,6 +4,7 @@
 </script>
 
 <h1>h1~h6</h1>
+<hr>
 
 <p>
     HTML <Badge>{'h1'}</Badge>~<Badge>{'h6'}</Badge> (heading) 태그는

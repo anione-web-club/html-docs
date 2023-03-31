@@ -4,6 +4,7 @@
 </script>
 
 <h1>p</h1>
+<hr>
 
 <p>
     HTML <Badge>{'<p>'}</Badge> (paragraph) 태그는 하나의 문단을 나타냅니다. 

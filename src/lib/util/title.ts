@@ -1,3 +1,3 @@
 export function getTitleName(pageName: string) {
-    return `${pageName} - 웹 동아리 HTML 문서`
+    return `${pageName} - 웹 프로그래밍 동아리`
 }
