@@ -9,7 +9,10 @@
         {
             title: '구조',
             route: 'structure',
-            child: []
+            child: [ 
+                { route: 'tag', name: '태그 구조' },
+                { route: 'document', name: '문서 구조' },
+            ]
         },
         {
             title: '태그',
